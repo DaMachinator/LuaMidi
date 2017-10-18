@@ -14,7 +14,7 @@ for _, name in ipairs(filenames) do
    if show_log then
       print("Executing", name..".lua")
    end
-   run = os.execute(..name..'.lua')
+   run = os.execute(name..'.lua')
    if not run then break end
 end
 
