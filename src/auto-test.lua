@@ -5,14 +5,16 @@ local filenames = {
    'smoke_on_the_water',
 }
 
-local show_log = not (arg[1] == '--quiet' or arg[1] == '-q')
+local shell = require("shell")
+local arg,op = shell.parse(...)
+local show_log = not (op['q'] or op["quiet"])
 
 local run
 for _, name in ipairs(filenames) do
    if show_log then
       print("Executing", name..".lua")
    end
-   run = os.execute(name..'.lua')
+   run = os.execute(..name..'.lua')
    if not run then break end
 end
 
