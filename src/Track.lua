@@ -6,10 +6,10 @@
 -- @license MIT
 -------------------------------------------------
 
-local Constants = require('LuaMidi.Constants')
-local Util = require('LuaMidi.Util')
-local MetaEvent = require('LuaMidi.MetaEvent')
-local NoteOnEvent = require('LuaMidi.NoteOnEvent')
+local Constants = require('Constants')
+local Util = require('Util')
+local MetaEvent = require('MetaEvent')
+local NoteOnEvent = require('NoteOnEvent')
 
 local Track = {}
 
