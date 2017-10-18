@@ -11,16 +11,16 @@
 
 local LuaMidi = {}
 
-LuaMidi.Constants = require("LuaMidi.Constants")
-LuaMidi.Chunk = require("LuaMidi.Chunk")
-LuaMidi.MetaEvent = require("LuaMidi.MetaEvent")
-LuaMidi.NoteEvent = require("LuaMidi.NoteEvent")
-LuaMidi.NoteOffEvent = require("LuaMidi.NoteOffEvent")
-LuaMidi.NoteOnEvent = require("LuaMidi.NoteOnEvent")
-LuaMidi.ProgramChangeEvent = require("LuaMidi.ProgramChangeEvent")
-LuaMidi.Track = require("LuaMidi.Track")
-LuaMidi.Util = require("LuaMidi.Util")
-LuaMidi.Writer = require("LuaMidi.Writer")
+LuaMidi.Constants = require("Constants")
+LuaMidi.Chunk = require("Chunk")
+LuaMidi.MetaEvent = require("MetaEvent")
+LuaMidi.NoteEvent = require("NoteEvent")
+LuaMidi.NoteOffEvent = require("NoteOffEvent")
+LuaMidi.NoteOnEvent = require("NoteOnEvent")
+LuaMidi.ProgramChangeEvent = require("ProgramChangeEvent")
+LuaMidi.Track = require("Track")
+LuaMidi.Util = require("Util")
+LuaMidi.Writer = require("Writer")
 
 -------------------------------------------------
 -- Functions
