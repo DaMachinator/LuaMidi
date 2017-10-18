@@ -9,10 +9,10 @@
 -- @see Track
 -------------------------------------------------
 
-local Util = require('LuaMidi.Util')
-local Constants = require('LuaMidi.Constants')
-local Chunk = require('LuaMidi.Chunk')
-local MetaEvent = require('LuaMidi.MetaEvent')
+local Util = require('Util')
+local Constants = require('Constants')
+local Chunk = require('Chunk')
+local MetaEvent = require('MetaEvent')
 
 local Writer = {}
 
