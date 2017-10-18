@@ -8,8 +8,8 @@
 -- @license MIT
 -------------------------------------------------
 
-local Constants = require('LuaMidi.Constants')
-local Util = require('LuaMidi.Util')
+local Constants = require('Constants')
+local Util = require('Util')
 
 local MetaEvent = {}
 
