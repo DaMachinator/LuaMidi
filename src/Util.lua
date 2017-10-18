@@ -15,7 +15,7 @@ local Util = {}
 
 function Util.string_to_bytes(string)
    local bytes = {}
-   for i=1, unicode.len(string) do
+   for i=1, utf8.len(string) do
       bytes[i]=string:byte(i)
    end
    return bytes
