@@ -9,7 +9,7 @@
 -- @see LuaMidi
 -------------------------------------------------
 
-local Constants = require('LuaMidi.Constants')
+local Constants = require('Constants')
 
 local Util = {}
 
