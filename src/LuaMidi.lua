@@ -5,22 +5,22 @@
 -- MIDI files.
 -- 
 -- @classmod LuaMidi
--- @author Pedro Alves
+-- @author Pedro Alves - edited to work with OpenOS by Arcanitor
 -- @license MIT
 -------------------------------------------------
 
 local LuaMidi = {}
 
-LuaMidi.Constants = require 'LuaMidi.Constants'
-LuaMidi.Chunk = require 'LuaMidi.Chunk'
-LuaMidi.MetaEvent = require 'LuaMidi.MetaEvent'
-LuaMidi.NoteEvent = require 'LuaMidi.NoteEvent'
-LuaMidi.NoteOffEvent = require 'LuaMidi.NoteOffEvent'
-LuaMidi.NoteOnEvent = require 'LuaMidi.NoteOnEvent'
-LuaMidi.ProgramChangeEvent = require 'LuaMidi.ProgramChangeEvent'
-LuaMidi.Track = require 'LuaMidi.Track'
-LuaMidi.Util = require 'LuaMidi.Util'
-LuaMidi.Writer = require 'LuaMidi.Writer'
+LuaMidi.Constants = require("LuaMidi.Constants")
+LuaMidi.Chunk = require("LuaMidi.Chunk")
+LuaMidi.MetaEvent = require("LuaMidi.MetaEvent")
+LuaMidi.NoteEvent = require("LuaMidi.NoteEvent")
+LuaMidi.NoteOffEvent = require("LuaMidi.NoteOffEvent")
+LuaMidi.NoteOnEvent = require("LuaMidi.NoteOnEvent")
+LuaMidi.ProgramChangeEvent = require("LuaMidi.ProgramChangeEvent")
+LuaMidi.Track = require("LuaMidi.Track")
+LuaMidi.Util = require("LuaMidi.Util")
+LuaMidi.Writer = require("LuaMidi.Writer")
 
 -------------------------------------------------
 -- Functions
